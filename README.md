@@ -6,4 +6,4 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 ## Overview
                        Sender                  Mesh Network                   Receiver
 
-    [Pi Computer]-USB Serial-[Xiao MCU w/ LoRa]----...----->[Xiao MCU w/ LoRa]-USB Serial-[Pi Computer]
+    [Pi Computer]-USB Serial-[Xiao MCU w/ LoRa]-----...---->[Xiao MCU w/ LoRa]-USB Serial-[Pi Computer]
