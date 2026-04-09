@@ -60,10 +60,12 @@ As documented [here](https://meshtastic.org/docs/software/python/cli/).
 
 ## Run
 
-On the Pi, to run _meshtastic_ CLI
+On the Pi, to run _meshtastic_ CLI.
 
     $ meshtastic
 
-Then, to get info
+Then, to get info about the meshtastic node.
 
     $ meshtastic --port /dev/ttyACM0 --info
+
+As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
