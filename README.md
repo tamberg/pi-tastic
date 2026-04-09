@@ -44,6 +44,6 @@ Then, activate the venv.
 
     $ source venv/bin/activate
 
-Later, when done.
+When done (not now).
 
     $ deactivate
