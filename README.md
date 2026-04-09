@@ -4,7 +4,7 @@ Connect a Pi with [Meshtastic](https://meshtastic.org).
 Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https://www.openstreetmap.org/search?query=limbe%20linux#map=19/4.01908/9.17187)).
 
 ## Overview
-A Pi computer sends a message to another Pi computer, both using Xiao MCUs to create/access a LoRa mesh network.
+A Pi computer sends a message to another Pi computer over a LoRa mesh network.
 
                        Sender                  Mesh Network                   Receiver
 
