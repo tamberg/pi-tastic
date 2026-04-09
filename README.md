@@ -7,3 +7,15 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
                        Sender                  Mesh Network                   Receiver
 
     [Pi Computer]-USB Serial-[Xiao MCU w/ LoRa]-----...---->[Xiao MCU w/ LoRa]-USB Serial-[Pi Computer]
+
+## Xiao MCU w/ LoRa
+- Seeed Xiao ESP32S3 MCU
+- Wio SX1262 LoRa Module
+- Connected to Pi via USB
+
+On the Pi, to list USB devices.
+
+    $ ls -al /dev/ttyA*
+    ...
+    crw-rw---- 1 root dialout ... /dev/ttyACM0
+
