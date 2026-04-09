@@ -91,7 +91,7 @@ Expected output.
 ## Set meshtastic device role
 On the Pi, to set _meshtastic_ device role.
 
-    $ meshtastic --set device.role 0
+    $ meshtastic --set device.role CLIENT
 
 Then, to verify the role.
 
@@ -100,3 +100,10 @@ Then, to verify the role.
 Expected output.
     
     device.role: 0
+
+## List meshtastic nodes
+On the Pi, to list _meshtastic_ nodes.
+
+    $ meshtastic --nodes
+    [OK]
+    ... !aee59b60 ...
