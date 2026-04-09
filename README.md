@@ -28,3 +28,16 @@ On the Pi, to list USB devices.
     ...
     crw-rw---- 1 root dialout ... /dev/ttyACM0
 
+## Python with venv
+
+On the Pi, set up a venv.
+
+    $ python -m venv venv
+
+Then, activate the venv.
+
+    $ source venv/bin/activate
+
+Later, when done.
+
+    $ deactivate
