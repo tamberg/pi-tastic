@@ -11,7 +11,7 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 ## Pi computer
 - Pi computer w/ Linux
 - Headless install is fine
-- We'll use a terminal via SSH
+- We use a terminal via SSH
 
 On your computer, to log into the Pi.
 
