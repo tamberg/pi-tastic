@@ -103,6 +103,8 @@ Expected output.
     
     device.role: 0
 
+As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
+
 ## Listen for messages
 On the receiving Pi, to listen for messages.
 
