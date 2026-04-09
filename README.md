@@ -11,6 +11,7 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 Here is the final setup.
 
                        Sender                  Mesh Network                   Receiver
+    
     [Pi Computer]-USB Serial-[Xiao MCU w/ LoRa]-----...---->[Xiao MCU w/ LoRa]-USB Serial-[Pi Computer]
 
 ## Pi computer
