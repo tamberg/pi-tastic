@@ -50,7 +50,7 @@ When done (not now).
 
 As documented [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments).
 
-## Install meshtastic
+## Install meshtastic CLI
 
 On the Pi, install _meshtastic_ CLI.
 
@@ -58,7 +58,7 @@ On the Pi, install _meshtastic_ CLI.
 
 As documented [here](https://meshtastic.org/docs/software/python/cli/).
 
-## Run meshtastic
+## Run meshtastic CLI
 
 On the Pi, to run _meshtastic_ CLI.
 
@@ -70,9 +70,9 @@ Then, to get info about the meshtastic node.
 
 As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
 
-## Set meshtastic region
+## Set meshtastic LoRa region
 
-On the Pi, to set _meshtastic_ region.
+On the Pi, to set _meshtastic_ LoRa region.
 
     $ meshtastic --set lora.region EU_868
 
