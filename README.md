@@ -17,7 +17,7 @@ Here is the final setup.
 ## Pi computer
 - Pi computer with Linux.
 - Headless install is fine.
-- We use a terminal via SSH.
+- Use a terminal via SSH.
 
 On your computer, to log into the Pi.
 
