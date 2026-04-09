@@ -76,7 +76,7 @@ Then, to get info about the meshtastic node.
 As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
 
 ## Set meshtastic LoRa region
-On the Pi, to set _meshtastic_ LoRa region.
+On the Pi, to set _meshtastic_ LoRa region, e.g. EU_868.
 
     $ meshtastic --set lora.region EU_868
 
@@ -87,6 +87,8 @@ Then, to verify the region.
 Expected output.
     
     lora.region: 3
+
+As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#region).
 
 ## Set meshtastic device role
 On the Pi, to set _meshtastic_ device role.
