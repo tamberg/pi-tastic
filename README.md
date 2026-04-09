@@ -93,7 +93,7 @@ On the Pi, to set _meshtastic_ device role.
 
     $ meshtastic --set device.role 0
 
-Then, to verify the region.
+Then, to verify the role.
 
     $ meshtastic --get device.role
 
