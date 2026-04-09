@@ -40,7 +40,7 @@ On the Pi, to list USB devices, e.g. _/dev/ttyACM0_.
 If you have to (re)flash the Xiao MCU.
 
 - Use Chrome (other browsers don't work).
-- Open https://flasher.meshcore.co.uk/
+- Open https://flasher.meshtastic.org/
 
 ## Set up a venv for Python
 On the Pi, set up a _venv_.
