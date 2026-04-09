@@ -8,6 +8,15 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 
     [Pi Computer]-USB Serial-[Xiao MCU w/ LoRa]-----...---->[Xiao MCU w/ LoRa]-USB Serial-[Pi Computer]
 
+## Pi computer
+- Pi Linux computer
+- Headless is fine
+- Terminal via SSH
+
+On your computer, to log into Pi.
+
+    $ ssh pi@raspberrypi.local
+
 ## Xiao MCU w/ LoRa
 - Seeed Xiao ESP32S3 MCU
 - Wio SX1262 LoRa Module
