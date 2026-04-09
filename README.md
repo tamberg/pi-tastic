@@ -101,9 +101,24 @@ Expected output.
     
     device.role: 0
 
+## Listen for messages
+On the receiving Pi, to listen for messages.
+
+    $ meshtastic --listen
+
 ## List meshtastic nodes
-On the Pi, to list _meshtastic_ nodes.
+On the sending Pi, to list _meshtastic_ nodes.
 
     $ meshtastic --nodes
-    [OK]
-    ... !aee59b60 ...
+    ... !aee59b60
+    
+## Send a text message
+On the sending Pi, to send a message to all nodes.
+
+    $ meshtastic --sendtext 'Hello, all!'
+    Sending text message Hello, all! to ^all on channelIndex:0
+
+Or, to send a message to a specific node.
+
+    $ meshtastic --dest '!aee59b60' --sendtext 'Hello, you!'
+    Sending text message Hello, you! to !aee59b60 on channelIndex:0 
