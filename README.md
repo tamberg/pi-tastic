@@ -126,3 +126,4 @@ Or, to send a message to a specific node.
 Or, to send a message to a specific channel.
 
     $ meshtastic --ch-index 1 --sendtext 'Hello, channel!'
+    Sending text message Hello, channel! to ^all on channelIndex:1
