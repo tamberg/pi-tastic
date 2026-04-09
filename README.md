@@ -15,9 +15,9 @@ Here is the final setup.
     [Pi Computer]-USB Serial-[Xiao MCU w/ LoRa]-----...---->[Xiao MCU w/ LoRa]-USB Serial-[Pi Computer]
 
 ## Pi computer
-- Pi computer w/ Linux
-- Headless install is fine
-- We use a terminal via SSH
+- Pi computer with Linux.
+- Headless install is fine.
+- We use a terminal via SSH.
 
 On your computer, to log into the Pi.
 
