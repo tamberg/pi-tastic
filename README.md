@@ -48,13 +48,15 @@ When done (not now).
 
     $ deactivate
 
+As documented [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments).
+
 ## Install meshtastic
 
 On the Pi, install _meshtastic_ CLI.
 
     $ pip3 install --upgrade "meshtastic[cli]"
 
-See https://meshtastic.org/docs/software/python/cli/
+As documented [here](https://meshtastic.org/docs/software/python/cli/).
 
 ## Run
 
