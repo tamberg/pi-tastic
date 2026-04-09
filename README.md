@@ -47,11 +47,11 @@ On the Pi, set up a virtual environment _venv_.
 
     $ python -m venv venv
 
-Then, activate the _venv_.
+Then, activate the virtual environment.
 
     $ source venv/bin/activate
 
-When done (not now).
+When done (not now), deactivate it.
 
     $ deactivate
 
