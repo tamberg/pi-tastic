@@ -28,7 +28,7 @@ On your computer, to log into the Pi.
 - Wio SX1262 LoRa Module.
 - Connected to Pi via USB.
 
-On the Pi, to list USB devices.
+On the Pi, to list USB devices, e.g. _/dev/ttyACM0_.
 
     $ ls -al /dev/ttyA*
     ...
@@ -118,12 +118,12 @@ On the sending Pi, to send a message to all nodes.
     $ meshtastic --sendtext 'Hello, all!'
     Sending text message Hello, all! to ^all on channelIndex:0
 
-Or, to send a message to a specific node.
+Or, to send a message to a specific node, e.g. _!aee59b60_.
 
     $ meshtastic --dest '!aee59b60' --sendtext 'Hello, you!'
     Sending text message Hello, you! to !aee59b60 on channelIndex:0 
 
-Or, to send a message to a specific channel.
+Or, to send a message to a specific channel, e.g. _1_.
 
     $ meshtastic --ch-index 1 --sendtext 'Hello, channel!'
     Sending text message Hello, channel! to ^all on channelIndex:1
