@@ -43,7 +43,7 @@ If you have to (re)flash the Xiao MCU.
 - Open https://flasher.meshtastic.org/
 
 ## Set up a venv for Python
-On the Pi, set up a _venv_.
+On the Pi, set up a virtual environment _venv_.
 
     $ python -m venv venv
 
