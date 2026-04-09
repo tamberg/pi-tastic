@@ -39,11 +39,10 @@ On the Pi, to list USB devices.
 
 If you have to (re)flash the Xiao MCU.
 
-- Use Chrome (other browsers don't work)
+- Use Chrome (other browsers don't work).
 - Open https://flasher.meshcore.co.uk/
 
 ## Set up a venv for Python
-
 On the Pi, set up a _venv_.
 
     $ python -m venv venv
@@ -59,7 +58,6 @@ When done (not now).
 As documented [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments).
 
 ## Install meshtastic CLI
-
 On the Pi, install _meshtastic_ CLI.
 
     $ pip3 install --upgrade "meshtastic[cli]"
@@ -67,7 +65,6 @@ On the Pi, install _meshtastic_ CLI.
 As documented [here](https://meshtastic.org/docs/software/python/cli/).
 
 ## Run meshtastic CLI
-
 On the Pi, to run _meshtastic_ CLI.
 
     $ meshtastic
@@ -79,7 +76,6 @@ Then, to get info about the meshtastic node.
 As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
 
 ## Set meshtastic LoRa region
-
 On the Pi, to set _meshtastic_ LoRa region.
 
     $ meshtastic --set lora.region EU_868
@@ -90,4 +86,17 @@ Then, to verify the region.
 
 Expected output.
     
-    3
+    lora.region: 3
+
+## Set meshtastic device role
+On the Pi, to set _meshtastic_ device role.
+
+    $ meshtastic --set device.role 0
+
+Then, to verify the region.
+
+    $ meshtastic --get device.role
+
+Expected output.
+    
+    device.role: 0
