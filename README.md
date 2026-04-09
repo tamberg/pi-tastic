@@ -34,8 +34,8 @@ On the Pi, to list USB devices.
     ...
     crw-rw---- 1 root dialout ... /dev/ttyACM0
 
-## Install meshtastic firmware (optional)
-> Note: Xiao MCUs have Meshtastic pre-flashed.
+## Install firmware (optional)
+> Note: Xiao MCUs have Meshtastic firmware pre-flashed.
 
 If you have to (re)flash the Xiao MCU.
 
