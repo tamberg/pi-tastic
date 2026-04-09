@@ -6,7 +6,7 @@ Initiated by Michel of [Lug Limbe](https://sokolo.cronopios.org/) ([Map](https:/
 ## Overview
 - A Pi computer sends messages to another Pi.
 - They communicate over a LoRa mesh network.
-- We use Xiao MCUs with LoRa radio modules.
+- They use Xiao MCUs with LoRa radio modules.
 
 Here is the final setup.
 
