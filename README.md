@@ -58,7 +58,7 @@ On the Pi, install _meshtastic_ CLI.
 
 As documented [here](https://meshtastic.org/docs/software/python/cli/).
 
-## Run
+## Run meshtastic
 
 On the Pi, to run _meshtastic_ CLI.
 
@@ -69,3 +69,17 @@ Then, to get info about the meshtastic node.
     $ meshtastic --port /dev/ttyACM0 --info
 
 As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
+
+## Set meshtastic region
+
+On the Pi, to set _meshtastic_ region.
+
+    $ meshtastic --set lora.region EU_868
+
+Then, to verify the region.
+
+    $ meshtastic --get lora.region
+
+Expected output.
+    
+    3
