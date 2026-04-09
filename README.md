@@ -127,7 +127,7 @@ Or, to send a message to a specific node, e.g. _!aee59b60_.
     $ meshtastic --dest '!aee59b60' --sendtext 'Hello, you!'
     Sending text message Hello, you! to !aee59b60 on channelIndex:0 
 
-Or, to send a message to a specific channel, e.g. _1_.
+Or, to send a message on a specific channel, e.g. _1_.
 
     $ meshtastic --ch-index 1 --sendtext 'Hello, channel!'
     Sending text message Hello, channel! to ^all on channelIndex:1
