@@ -24,9 +24,9 @@ On your computer, to log into the Pi.
     $ ssh pi@raspberrypi.local
 
 ## Xiao MCU w/ LoRa
-- [Seeed Xiao ESP32S3 MCU](https://wiki.seeedstudio.com/wio_sx1262_with_xiao_esp32s3_kit/) w/
-- Wio SX1262 LoRa Module
-- Connected to Pi via USB
+- [Seeed Xiao ESP32S3 MCU](https://wiki.seeedstudio.com/wio_sx1262_with_xiao_esp32s3_kit/).
+- Wio SX1262 LoRa Module.
+- Connected to Pi via USB.
 
 On the Pi, to list USB devices.
 
