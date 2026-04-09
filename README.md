@@ -36,14 +36,32 @@ On the Pi, to list USB devices.
 
 ## Python with venv
 
-On the Pi, set up a venv.
+On the Pi, set up a _venv_.
 
     $ python -m venv venv
 
-Then, activate the venv.
+Then, activate the _venv_.
 
     $ source venv/bin/activate
 
 When done (not now).
 
     $ deactivate
+
+## Install meshtastic
+
+On the Pi, install _meshtastic_ CLI.
+
+    $ pip3 install --upgrade "meshtastic[cli]"
+
+See https://meshtastic.org/docs/software/python/cli/
+
+## Run
+
+On the Pi, to run _meshtastic_ CLI
+
+    $ meshtastic
+
+Then, to get info
+
+    $ meshtastic --port /dev/ttyACM0 --info
