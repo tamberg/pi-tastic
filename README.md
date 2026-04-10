@@ -139,14 +139,14 @@ Then [send a text message](#send-a-text-message) on the sending Pi.
 
 Expected output on the receiving Pi, e.g.
 
-   DEBUG ... Received from radio: packet {
-     from: 2934283988
-     to: 2934283104
-     decoded {
-       portnum: TEXT_MESSAGE_APP
-       payload: "Hello, you!"
-       bitfield: 0
-     }
-     ...
-     transport_mechanism: TRANSPORT_LORA
-   }
+    DEBUG ... Received from radio: packet {
+      from: 2934283988
+      to: 2934283104
+      decoded {
+        portnum: TEXT_MESSAGE_APP
+        payload: "Hello, you!"
+        bitfield: 0
+      }
+      ...
+      transport_mechanism: TRANSPORT_LORA
+    }
