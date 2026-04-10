@@ -151,4 +151,4 @@ Expected output on the receiving Pi, e.g.
       transport_mechanism: TRANSPORT_LORA
     }
 
-(Hex _aee59b60_ is dec _2934283104_.)
+Note that _2934283104_ in hex is _aee59b60_.
