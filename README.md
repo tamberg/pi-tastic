@@ -131,3 +131,22 @@ Or, to send a message on a specific channel, e.g. _1_.
 
     $ meshtastic --ch-index 1 --sendtext 'Hello, channel!'
     Sending text message Hello, channel! to ^all on channelIndex:1
+
+## Receive a text message
+Make sure to [listen for messages](#listen-for-messages) on the receiving Pi.
+
+Then [send a text message](#send-a-text-message) on the sending Pi.
+
+Expected output on the receiving Pi, e.g.
+
+   DEBUG ... Received from radio: packet {
+     from: 2934283988
+     to: 2934283104
+     decoded {
+       portnum: TEXT_MESSAGE_APP
+       payload: "Hello, you!"
+       bitfield: 0
+     }
+     ...
+     transport_mechanism: TRANSPORT_LORA
+   }
