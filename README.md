@@ -46,7 +46,7 @@ If you have to (re)flash the Xiao MCU.
 On the Pi, set up a virtual environment _venv_.
 
     $ cd ~
-    $ python -m venv venv
+    $ python3 -m venv venv
 
 Then, activate the virtual environment.
 
