@@ -74,6 +74,13 @@ Then, to get info about the meshtastic node.
 
     $ meshtastic --port /dev/ttyACM0 --info
 
+Expected output, e.g.
+
+    Connected to radio
+    
+    Owner: Meshtastic 9b60 (9b60)
+    My info: { "myNodeNum": 2934283104, ...
+
 As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
 
 ## Set meshtastic LoRa region
