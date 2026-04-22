@@ -113,17 +113,20 @@ Expected output.
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
 
+## List meshtastic nodes
+On the sending Pi, to list _meshtastic_ nodes.
+
+    $ meshtastic --nodes
+
+Expected output, e.g.
+
+    ... !aee59b60
+    
 ## Listen for messages
 On the receiving Pi, to listen for messages.
 
     $ meshtastic --listen
 
-## List meshtastic nodes
-On the sending Pi, to list _meshtastic_ nodes.
-
-    $ meshtastic --nodes
-    ... !aee59b60
-    
 ## Send a text message
 On the sending Pi, to send a message to all nodes.
 
