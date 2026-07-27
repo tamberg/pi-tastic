@@ -84,7 +84,7 @@ Expected output, e.g.
 As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
 
 ## Set meshtastic LoRa region
-On the Pi, to set _meshtastic_ LoRa region, e.g. EU_868.
+On the Pi, to set meshtastic LoRa region, e.g. EU_868.
 
     $ meshtastic --set lora.region EU_868
 
@@ -99,7 +99,7 @@ Expected output.
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#region).
 
 ## Set meshtastic LoRa modem preset
-On the Pi, to set _meshtastic_ LoRa modem preset, e.g. MEDIUM_FAST.
+On the Pi, to set meshtastic LoRa modem preset, e.g. MEDIUM_FAST.
 
     $ meshtastic --set lora.modem_preset MEDIUM_FAST
 
@@ -114,7 +114,7 @@ Expected output.
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem_preset).
 
 ## Set meshtastic device role
-On the Pi, to set _meshtastic_ device role.
+On the Pi, to set meshtastic device role.
 
     $ meshtastic --set device.role CLIENT
 
@@ -129,7 +129,7 @@ Expected output.
 As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
 
 ## List meshtastic nodes
-On the sending Pi, to list _meshtastic_ nodes.
+On the sending Pi, to list meshtastic nodes.
 
     $ meshtastic --nodes
 
