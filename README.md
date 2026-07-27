@@ -98,6 +98,21 @@ Expected output.
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#region).
 
+## Set meshtastic LoRa modem preset
+On the Pi, to set _meshtastic_ LoRa modem preset, e.g. MEDIUM_FAST.
+
+    $ meshtastic --set lora.modem_preset MEDIUM_FAST
+
+Then, to verify the region.
+
+    $ meshtastic --get lora.modem_preset
+
+Expected output.
+    
+    lora.modem_preset: 4
+
+As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem_preset).
+
 ## Set meshtastic device role
 On the Pi, to set _meshtastic_ device role.
 
