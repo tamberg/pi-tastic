@@ -111,7 +111,7 @@ Expected output.
     
     lora.modem_preset: 4
 
-As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem_preset).
+As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem-preset).
 
 ## Set meshtastic device role
 On the Pi, to set meshtastic device role.
