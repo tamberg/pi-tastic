@@ -178,3 +178,25 @@ Expected output on the receiving Pi, e.g.
     }
 
 Note that _2934283104_ in hex is _aee59b60_.
+
+## Send sensor data
+> Note: this part is work in progress
+
+Connect a [supported I2C sensor](https://meshtastic.org/docs/configuration/module/telemetry/) to the [Xiao ESP32S3 pins](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#xiao-esp32-s3-front), e.g. a [SHT4x sensor](https://wiki.seeedstudio.com/Grove-SHT4x/).
+
+    - GND
+    - 3V3
+    - SDA
+    - SCL
+
+On the sending Pi, to send sensor data to a node.
+
+    $ meshtastic --set device.role SENSOR
+    $ meshtastic --set telemetry.environment_update_interval 180
+    $ meshtastic --set telemetry.environment_measurement_enabled true
+    $ meshtastic --noproto
+
+## Receive sensor data
+> Note: this part is work in progress
+
+    $ ...
