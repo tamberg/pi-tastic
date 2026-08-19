@@ -194,7 +194,16 @@ On the sending Pi, to send sensor data to a node.
     $ meshtastic --set device.role SENSOR
     $ meshtastic --set telemetry.environment_update_interval 180
     $ meshtastic --set telemetry.environment_measurement_enabled true
+
+Then, to see the local node serial log output.
+
     $ meshtastic --noproto
+
+Expected output, e.g.
+
+    INFO ... [EnvironmentTelemetry] SHTXX (SHT4x): Got: temp:29.916075degC, hum:44.957504%rh
+    INFO ... [EnvironmentTelemetry] SHTXX (SHT4x): Got: temp:29.905394degC, hum:44.970856%rh
+    INFO ... [EnvironmentTelemetry] Send: barometric_pressure=0.000000kPa, relative_humidity=44.970856RH, temperature=29.905394degC
 
 ## Receive sensor data
 > Note: this part is work in progress
