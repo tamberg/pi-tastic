@@ -192,6 +192,8 @@ Connect a [supported I2C sensor](https://meshtastic.org/docs/configuration/modul
 On the sending Pi, to send sensor data to a node.
 
     $ meshtastic --set device.role SENSOR
+    $ meshtastic --ch-set psk random --ch-index 0
+    $ meshtastic --ch-set name "Sensor Data" --ch-index 0
     $ meshtastic --set telemetry.environment_update_interval 180
     $ meshtastic --set telemetry.environment_measurement_enabled true
 
@@ -208,4 +210,12 @@ Expected output, e.g.
 ## Receive sensor data
 > Note: this part is work in progress
 
-    $ ...
+    $ meshtastic --ch-set psk random --ch-index 0
+
+Make sure to [listen for messages](#listen-for-messages) on the receiving Pi.
+
+Then [send sensor data](#send-sensor-data) on the sending Pi.
+
+Expected output on the receiving Pi, e.g.
+
+    ...
