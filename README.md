@@ -210,9 +210,11 @@ Expected output, e.g.
 ## Receive sensor data
 > Note: this part is work in progress
 
+On the receiving Pi, to [set PSK](https://meshtastic.org/docs/configuration/radio/channels/#psk-1) on the primary channel.
+
     $ meshtastic --ch-set psk random --ch-index 0
 
-Make sure to [listen for messages](#listen-for-messages) on the receiving Pi.
+Also make sure to [listen for messages](#listen-for-messages).
 
 Then [send sensor data](#send-sensor-data) on the sending Pi.
 
