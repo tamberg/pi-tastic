@@ -231,3 +231,7 @@ Then [send sensor data](#send-sensor-data) on the sending Pi.
 Expected output on the receiving Pi, e.g.
 
     ...
+    environment_metrics {
+      temperature: 29.905394
+      relative_humidity: 44.970856
+    }
