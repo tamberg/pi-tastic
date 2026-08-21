@@ -185,9 +185,11 @@ Or, to send a message on a specific channel, e.g. _1_.
     Sending text message Hello, channel! to ^all on channelIndex:1
 
 ## Receive a text message
-Make sure to [listen for messages](#listen-for-messages) on the receiving Pi.
+On the receiving Pi, to receive any text messages.
 
-Then [send a text message](#send-a-text-message) on the sending Pi.
+Make sure to [listen for messages](#listen-for-messages) .
+
+Then [send a text message](#send-a-text-message) on a sending Pi.
 
 Expected output on the receiving Pi, e.g.
 
@@ -234,7 +236,7 @@ Expected output, e.g.
     INFO ... [EnvironmentTelemetry] Send: barometric_pressure=0.000000kPa, relative_humidity=44.970856RH, temperature=29.905394degC
 
 ## Receive sensor data
-On the receiving Pi, to receive sensor data.
+On the receiving Pi, to receive any sensor data.
 
 Make sure to [set the known PSK](#set-a-known-psk) of a sender.
 
