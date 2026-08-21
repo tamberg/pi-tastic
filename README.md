@@ -236,7 +236,7 @@ Expected output, e.g.
 ## Receive sensor data
 On the receiving Pi, to receive sensor data.
 
-Make sure to [set the known PSK](#set-a-known-psk) of the sender.
+Make sure to [set the known PSK](#set-a-known-psk) of a sender.
 
 Then, make sure to [listen for messages](#listen-for-messages).
 
