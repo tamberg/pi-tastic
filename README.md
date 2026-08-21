@@ -133,7 +133,7 @@ Expected output, e.g.
 As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
 
 ## Create and set a device PSK
-On the Pi, to create a _random_ device PSK.
+On the Pi, to create and set a _random_ pre-shared key (PSK).
 
     $ meshtastic --ch-set psk random --ch-index 0
 
