@@ -206,8 +206,6 @@ Expected output on the receiving Pi, e.g.
 Note that _2934283104_ in hex is _aee59b60_.
 
 ## Connect a sensor
-> Note: this part is work in progress
-
 Connect a [supported I2C sensor](https://meshtastic.org/docs/configuration/module/telemetry/) to the [Xiao ESP32S3 pins](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#xiao-esp32-s3-front), e.g. a [SHT4x sensor](https://wiki.seeedstudio.com/Grove-SHT4x/).
 
     - GND
@@ -216,20 +214,12 @@ Connect a [supported I2C sensor](https://meshtastic.org/docs/configuration/modul
     - SCL
 
 ## Send sensor data
-> Note: this part is work in progress
+On the sending Pi, to send sensor data every _180_ seconds.
 
-On the sending Pi, to send sensor data to a node.
-
-    $ meshtastic --set device.role SENSOR
-    $ meshtastic --ch-set psk random --ch-index 0
     $ meshtastic --set telemetry.environment_update_interval 180
     $ meshtastic --set telemetry.environment_measurement_enabled true
 
-Then, to see the base64 encoded PSK key of the local node.
-
-    $ meshtastic --info | grep "psk=secret"
-
-    ... psk=secret { "psk": "TVlfUEFTU1dPUkQ=", ...
+Also make sure to [set the device role](#set-a-device-role) to _SENSOR_ and [create](#create-a-psk) or [set a PSK](#set-a-known-psk).
 
 Then, to see log output of the local node.
 
@@ -244,11 +234,7 @@ Expected output, e.g.
 ## Receive sensor data
 > Note: this part is work in progress
 
-On the receiving Pi, to [set PSK](https://meshtastic.org/docs/configuration/radio/channels/#psk-1) on the primary channel.
-
-    $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
-
-Also make sure to [listen for messages](#listen-for-messages).
+On the receiving Pi, make sure to [listen for messages](#listen-for-messages).
 
 Then [send sensor data](#send-sensor-data) on the sending Pi.
 
