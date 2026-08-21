@@ -113,6 +113,28 @@ Expected output.
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem-preset).
 
+## Create and set a meshtastic device PSK
+On the Pi, to create a _random_ meshtastic device PSK.
+
+    $ meshtastic --ch-set psk random --ch-index 0
+
+Then, to see the created PSK key.
+
+    $ meshtastic --info | grep "psk=secret"
+
+Expected output, a Base64 encoded PSK.
+
+    ... psk=secret { "psk": "TVlfUEFTU1dPUkQ=", ...
+
+As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
+
+## Set a known meshtastic device PSK
+On a second Pi, to set a Base64 encoded PSK on the primary channel.
+
+    $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
+
+As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
+
 ## Set meshtastic device role
 On the Pi, to set meshtastic device role.
 
