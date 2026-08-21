@@ -202,9 +202,9 @@ On the sending Pi, to send sensor data to a node.
 
 Then, to see the base64 encoded PSK key of the local node.
 
-    $ meshtastic --info
+    $ meshtastic --info | grep "psk=secret"
 
-    ... TVlfUEFTU1dPUkQ= ...
+    ... psk=secret { "psk": "TVlfUEFTU1dPUkQ=", ...
 
 Then, to see log output of the local node.
 
