@@ -214,7 +214,7 @@ Connect a [supported I2C sensor](https://meshtastic.org/docs/configuration/modul
     - SCL
 
 ## Send sensor data
-On the sending Pi, to send sensor data every _180_ seconds.
+On the sending Pi, to send sensor data, e.g. every _180_ s.
 
     $ meshtastic --set telemetry.environment_update_interval 180
     $ meshtastic --set telemetry.environment_measurement_enabled true
