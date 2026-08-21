@@ -88,7 +88,7 @@ On the Pi, to set the LoRa region, e.g. EU_868.
 
     $ meshtastic --set lora.region EU_868
 
-Then, to verify the region.
+Then, to verify the LoRa region.
 
     $ meshtastic --get lora.region
 
@@ -103,7 +103,7 @@ On the Pi, to set a LoRa modem preset, e.g. MEDIUM_FAST.
 
     $ meshtastic --set lora.modem_preset MEDIUM_FAST
 
-Then, to verify the region.
+Then, to verify the modem preset.
 
     $ meshtastic --get lora.modem_preset
 
@@ -148,7 +148,7 @@ Expected output includes a Base64 encoded PSK, e.g.
 As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
 
 ## Set a known device PSK
-On a second Pi, to set a Base64 encoded PSK for a channel, e.g. 0
+On a second Pi, to set a Base64 encoded PSK for a channel, e.g.
 
     $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
 
