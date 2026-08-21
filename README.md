@@ -148,7 +148,7 @@ Expected output includes a Base64 encoded PSK, e.g.
 As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
 
 ## Set a known PSK
-On a second Pi, to set a Base64 encoded PSK for a channel, e.g.
+On a second or third Pi, to set a Base64 encoded PSK for a channel, e.g.
 
     $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
 
