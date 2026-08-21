@@ -234,8 +234,6 @@ Expected output, e.g.
     INFO ... [EnvironmentTelemetry] Send: barometric_pressure=0.000000kPa, relative_humidity=44.970856RH, temperature=29.905394degC
 
 ## Receive sensor data
-> Note: this part is work in progress
-
 On the receiving Pi, make sure to [listen for messages](#listen-for-messages).
 
 Make sure to [set the known PSK](#set-a-known-psk) of the sender.
