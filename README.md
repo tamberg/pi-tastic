@@ -113,6 +113,21 @@ Expected output.
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem-preset).
 
+## Set a device role
+On the Pi, to set meshtastic device role.
+
+    $ meshtastic --set device.role CLIENT
+
+Then, to verify the role.
+
+    $ meshtastic --get device.role
+
+Expected output.
+    
+    device.role: 0
+
+As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
+
 ## Create and set a device PSK
 On the Pi, to create a _random_ device PSK.
 
@@ -134,21 +149,6 @@ On a second Pi, to set a Base64 encoded PSK on the primary channel.
     $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
-
-## Set a device role
-On the Pi, to set meshtastic device role.
-
-    $ meshtastic --set device.role CLIENT
-
-Then, to verify the role.
-
-    $ meshtastic --get device.role
-
-Expected output.
-    
-    device.role: 0
-
-As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
 
 ## List meshtastic nodes
 On the sending Pi, to list meshtastic nodes.
