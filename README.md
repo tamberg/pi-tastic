@@ -240,7 +240,7 @@ Make sure to [set the known PSK](#set-a-known-psk) of the sender.
 
 Then, make sure to [listen for messages](#listen-for-messages).
 
-Wait for the sender to [send sensor data](#send-sensor-data).
+Wait for a sender to [send sensor data](#send-sensor-data).
 
 Expected output on the receiving Pi, e.g.
 
