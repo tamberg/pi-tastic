@@ -137,7 +137,7 @@ On the Pi, to create and set a pre-shared key (PSK) for a channel.
 
     $ meshtastic --ch-set psk random --ch-index 0
 
-Then, to see the created PSK.
+Then, to see the newly created PSK.
 
     $ meshtastic --info | grep "psk=secret"
 
