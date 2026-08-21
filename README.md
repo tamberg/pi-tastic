@@ -235,6 +235,8 @@ Expected output, e.g.
     INFO ... [EnvironmentTelemetry] SHTXX (SHT4x): Got: temp:29.905394degC, hum:44.970856%rh
     INFO ... [EnvironmentTelemetry] Send: barometric_pressure=0.000000kPa, relative_humidity=44.970856RH, temperature=29.905394degC
 
+Note that this works as well without a Pi.
+
 ## Receive sensor data
 On the receiving Pi, to receive any sensor data.
 
