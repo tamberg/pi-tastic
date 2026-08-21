@@ -221,7 +221,7 @@ On the sending Pi, to send sensor data, e.g. every _180_ s.
 
 Make sure to [set the device role](#set-a-device-role) to _SENSOR_.
 
-Also make sure to [create and set a PSK](#create-and-set-a-device-psk).
+Also make sure to [create and set a PSK](#create-and-set-a-psk).
 
 Then, to start sending and see log output of the local node.
 
