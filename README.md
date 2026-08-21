@@ -196,7 +196,6 @@ On the sending Pi, to send sensor data to a node.
 
     $ meshtastic --set device.role SENSOR
     $ meshtastic --ch-set psk random --ch-index 0
-    $ meshtastic --ch-set name "Sensor Data" --ch-index 0
     $ meshtastic --set telemetry.environment_update_interval 180
     $ meshtastic --set telemetry.environment_measurement_enabled true
 
@@ -221,7 +220,6 @@ Expected output, e.g.
 
 On the receiving Pi, to [set PSK](https://meshtastic.org/docs/configuration/radio/channels/#psk-1) on the primary channel.
 
-    $ meshtastic --ch-set name "Sensor Data" --ch-index 0
     $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
 
 Also make sure to [listen for messages](#listen-for-messages).
