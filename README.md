@@ -219,7 +219,7 @@ On the sending Pi, to send sensor data every _180_ seconds.
     $ meshtastic --set telemetry.environment_update_interval 180
     $ meshtastic --set telemetry.environment_measurement_enabled true
 
-Also make sure to [set the device role](#set-a-device-role) to _SENSOR_ and [create](#create-a-psk) or [set a PSK](#set-a-known-psk).
+Also make sure to [set the device role](#set-a-device-role) to _SENSOR_ and [create](#create-and-set-a-device-psk) or [set a PSK](#set-a-known-psk).
 
 Then, to see log output of the local node.
 
