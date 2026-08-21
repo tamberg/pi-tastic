@@ -83,8 +83,8 @@ Expected output, e.g.
 
 As documented [here](https://meshtastic.org/docs/software/python/cli/#--port-port).
 
-## Set meshtastic LoRa region
-On the Pi, to set meshtastic LoRa region, e.g. EU_868.
+## Set the LoRa region
+On the Pi, to set the LoRa region, e.g. EU_868.
 
     $ meshtastic --set lora.region EU_868
 
@@ -98,8 +98,8 @@ Expected output.
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#region).
 
-## Set meshtastic LoRa modem preset
-On the Pi, to set meshtastic LoRa modem preset, e.g. MEDIUM_FAST.
+## Set a LoRa modem preset
+On the Pi, to set a LoRa modem preset, e.g. MEDIUM_FAST.
 
     $ meshtastic --set lora.modem_preset MEDIUM_FAST
 
@@ -113,8 +113,8 @@ Expected output.
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem-preset).
 
-## Create and set a meshtastic device PSK
-On the Pi, to create a _random_ meshtastic device PSK.
+## Create and set a device PSK
+On the Pi, to create a _random_ device PSK.
 
     $ meshtastic --ch-set psk random --ch-index 0
 
@@ -128,14 +128,14 @@ Expected output, a Base64 encoded PSK.
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
 
-## Set a known meshtastic device PSK
+## Set a known device PSK
 On a second Pi, to set a Base64 encoded PSK on the primary channel.
 
     $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
 
-## Set meshtastic device role
+## Set a device role
 On the Pi, to set meshtastic device role.
 
     $ meshtastic --set device.role CLIENT
