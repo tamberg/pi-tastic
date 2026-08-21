@@ -210,10 +210,12 @@ Note that _2934283104_ in hex is _aee59b60_.
 ## Connect a sensor
 Connect a [supported I2C sensor](https://meshtastic.org/docs/configuration/module/telemetry/) to the [Xiao ESP32S3 pins](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#xiao-esp32-s3-front), e.g. a [SHT4x sensor](https://wiki.seeedstudio.com/Grove-SHT4x/).
 
-    - GND
-    - 3V3
-    - SDA
-    - SCL
+    Xiao - SHT4x
+
+    GND - GND
+    3V3 - VCC
+    SDA - SDA
+    SCL - SCL
 
 ## Send sensor data
 On the sending Pi, to send sensor data, e.g. every _180_ s.
