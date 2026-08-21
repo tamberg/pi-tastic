@@ -133,11 +133,11 @@ Expected output, e.g.
 As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
 
 ## Create and set a device PSK
-On the Pi, to create and set a pre-shared key (PSK).
+On the Pi, to create and set a pre-shared key (PSK) for a channel.
 
     $ meshtastic --ch-set psk random --ch-index 0
 
-Then, to see the created PSK key.
+Then, to see the created PSK.
 
     $ meshtastic --info | grep "psk=secret"
 
@@ -148,7 +148,7 @@ Expected output includes a Base64 encoded PSK, e.g.
 As documented [here](https://meshtastic.org/docs/configuration/radio/channels/#psk-1).
 
 ## Set a known device PSK
-On a second Pi, to set a Base64 encoded PSK on the primary channel.
+On a second Pi, to set a Base64 encoded PSK for a channel, e.g. 0
 
     $ meshtastic --ch-set psk "base64:TVlfUEFTU1dPUkQ=" --ch-index 0
 
