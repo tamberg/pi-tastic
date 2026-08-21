@@ -114,16 +114,20 @@ Expected output.
 As documented [here](https://meshtastic.org/docs/configuration/radio/lora/#modem-preset).
 
 ## Set a device role
-On the Pi, to set meshtastic device role.
+On the Pi, to set the device role to _CIENT_.
 
     $ meshtastic --set device.role CLIENT
+
+Or, to set meshtastic device role to _SENSOR_.
+
+    $ meshtastic --set device.role SENSOR
 
 Then, to verify the role.
 
     $ meshtastic --get device.role
 
 Expected output.
-    
+
     device.role: 0
 
 As documented [here](https://meshtastic.org/docs/configuration/radio/device/#roles)
