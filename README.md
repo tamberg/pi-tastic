@@ -107,7 +107,7 @@ Then, to verify the region.
 
     $ meshtastic --get lora.modem_preset
 
-Expected output.
+Expected output, e.g.
     
     lora.modem_preset: 4
 
@@ -126,7 +126,7 @@ Then, to verify the role.
 
     $ meshtastic --get device.role
 
-Expected output.
+Expected output, e.g.
 
     device.role: 0
 
@@ -141,7 +141,7 @@ Then, to see the created PSK key.
 
     $ meshtastic --info | grep "psk=secret"
 
-Expected output, a Base64 encoded PSK.
+Expected output includes a Base64 encoded PSK, e.g.
 
     ... psk=secret { "psk": "TVlfUEFTU1dPUkQ=", ...
 
